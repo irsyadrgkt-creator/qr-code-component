@@ -53,11 +53,15 @@ p {
 /*dekstop*/
 
 @media (max-width: 1440px) {
-  font-size: 100%;
+  body {
+    font-size: 100%;
+  }
 }
 
 /*mobile*/
 
 @media (max-width: 375px) {
-  font-size: 75%;
+  body {
+    font-size: 75%;
+  }
 }
